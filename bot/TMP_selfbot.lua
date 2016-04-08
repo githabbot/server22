@@ -237,63 +237,63 @@ Realm Commands:
 Create a group
 
 !createrealm [name]
-Create a realm
+ساخت ریلم جدید
 
 !setname [name]
-Set realm name
+تنظیم نام جدید 
 
 !setabout [group_id] [text]
-Set a group's about text
+تنظیم درباره گروه
 
 !setrules [grupo_id] [text]
-Set a group's rules
+تنظیم قوانین برای گروه 
 
 !lock [grupo_id] [setting]
-Lock a group's setting
+قفل کردن تنظیمات گروه
 
 !unlock [grupo_id] [setting]
-Unock a group's setting
+باز کردن تنظیمات گروه 
 
 !wholist
-Get a list of members in group/realm
+دریافت لیست اعضا گروه/ریلم
 
 !who
-Get a file of members in group/realm
+دریافت فایل لیست اعضای گروه/ریلم
 
 !type
-Get group type
+دریافت نوع گروه
 
 !kill chat [grupo_id]
-Kick all memebers and delete group
+منحل کردن یک گروه
 
 !kill realm [realm_id]
-Kick all members and delete realm
+منحل کردن یک ریلم
 
 !addadmin [id|username]
-Promote an admin by id OR username *Sudo only
+اضافه کردن ادمین به گروه با ایدی/یوزرنیم *فقط مخصوص ادمین اصلی
 
 !removeadmin [id|username]
-Demote an admin by id OR username *Sudo only
+برداشتن ادمین از گروه با ایدی/یوزر نیم *فقط مخصوص ادمین اصلی
 
 !list groups
-Get a list of all groups
+دریافت لیست تمامی گروه های ایجاد شده
 
 !list realms
-Get a list of all realms
+دریافت لیست تمامی ریلم های ایجاد شده
 
 !log
-Get a logfile of current group or realm
+دریافت فایل ورود به سیستم از گروه فعلی ویا ریلم
 
 !broadcast [text]
 !broadcast Hello !
-Send text to all groups
-» Only sudo users can run this command
+فرستادن یک متن به تمامی گروه ها
+» فقط مخصوص ادمین اصلی
 
 !bc [group_id] [text]
 !bc 123456789 Hello !
-This command will send text to [group_id]
+برای فرستادن یک متن به گروهی خاص
 
-» U can use both "/" and "!" 
+» شما میتوانید از هر دو علامت / و! برای دستور دادن به روبات استفاده کنید 
 Write by taha
 
 » Only mods, owner and admin can add bots in group
