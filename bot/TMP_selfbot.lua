@@ -231,7 +231,7 @@ function create_config( )
     about_text = [[just boomrange bot for all of the iranian 
     the sudos are taha & alireza]],
     help_text_realm = [[
-Realm Commands:
+لیست دستورات ریلم:
 
 !creategroup [name]
 Create a group
@@ -293,7 +293,7 @@ Create a group
 !bc 123456789 Hello !
 برای فرستادن یک متن به گروهی خاص
 
-» شما میتوانید از هر دو علامت / و! برای دستور دادن به روبات استفاده کنید 
+» شما میتوانید از هر دو علامت "/" و "!" برای دستورات استفاده کنید
 Write by taha
 
 » Only mods, owner and admin can add bots in group
@@ -304,102 +304,103 @@ Write by taha
 
 ]],
     help_text = [[
-Commands list :
+لیست دستورات :
 
 !kick [username|id]
-You can also do it by reply
+اخراج با یوزرنیم/ریپلی/ایدی
 
 !ban [ username|id]
-You can also do it by reply
+بن با یوزرنیم/ریپلی/ایدی
 
 !unban [id]
-You can also do it by reply
+آنبن کردن با ایدی
 
 !who
-Members list
+لیست اعضا
 
 !modlist
-Moderators list
+نمایش لیست مدیران
 
 !promote [username]
-Promote someone
+ایجاد یک کمک مدیر جدید
 
 !demote [username]
-Demote someone
+حذف یک کمک مدیر
 
 !kickme
-Will kick user
+اخراچ خودتان از گروه
 
 !about
-Group description
+درباره گروه
 
 !setphoto
-Set and locks group photo
+برای تنظیم عکس گروه
 
 !setname [name]
-Set group name
+تنظیم نام گروه
 
 !rules
-Group rules
+قوانین گروه
 
 !id
-Return group id or user id
+دریافت ایدی گروه و یا ایدی یوزر
 
 !help
-Get commands list
+دریافت لیست دستورات
 
 !lock [member|name|bots|leave] 
-Locks [member|name|bots|leaveing] 
+قفل [اعضا|نام|ربات|خروج[
+
 
 !unlock [member|name|bots|leave]
-Unlocks [member|name|bots|leaving]
+بازکردن قفل [اعضا|نام|ربات|خروج[
 
 !set rules [text]
-Set [text] as rules
+تنظیم قوانین
 
 !set about [text]
-Set [text] as about
+تنظیم درباره گروه
 
 !settings
-Returns group settings
+دریافت تنظیمات گروه
 
 !newlink
-Create/revoke your group link
+ایجاد لینک جدید
 
 !link
-Returns group link
+دریافت لینک گروه
 
 !owner
-Returns group owner id
+نمایش صاحب گروه
 
 !setowner [id]
-Will set id as owner
+تنظیم صاحب برای گروه
 
 !setflood [value]
-Set [value] as flood sensitivity
+تنظیم حساسیت اسپم
 
 !stats
-Simple message statistics
+امار در پیام ساده
 
 !save [value] [text]
-Save [text] as [value]
+ذخیره متن به عنوان ارزش
 
 !get [value]
-Returns text of [value]
+دریافت متن ارزش
 
 !clean [modlist|rules|about]
-Will clear [modlist|rules|about] and set it to nil
+پاک کردن [مدیران|قوانین|درباره]
 
 !res [username]
-Returns user id
+دریافت ایدی با یوزرنیم
 
 !log
-Will return group logs
+دریافت فایل ورود به سیستم
 
 !banlist
-Will return group ban list
+دریافت لیست بن شده ها
 
-» U can use both "/" and "!" 
+» شما میتوانید از هر دو علامت "/" و "!" برای دستورات استفاده کنید
 
 Write by taha
 sudos are @Motion_Graphics_boy & @senator_blackk
