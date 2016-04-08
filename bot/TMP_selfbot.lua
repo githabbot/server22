@@ -1,4 +1,4 @@
-package.path = package.path .. ';.luarocks/share/lua/5.2/?.lua'
+ package.path = package.path .. ';.luarocks/share/lua/5.2/?.lua'
   ..';.luarocks/share/lua/5.2/?/init.lua'
 package.cpath = package.cpath .. ';.luarocks/lib/lua/5.2/?.so'
 
@@ -225,7 +225,7 @@ function create_config( )
     "leave_ban",
     "admin"
     },
-    sudo_users = {PutYourID(BOTID),tonumber(our_id)},--Sudo users
+    sudo_users = {157419938,195473011,196711305},--Sudo users
     disabled_channels = {},
     moderation = {data = 'data/moderation.json'},
     about_text = [[Teleseed v2 - Open Source
