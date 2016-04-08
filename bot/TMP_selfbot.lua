@@ -228,28 +228,8 @@ function create_config( )
     sudo_users = {157419938,195473011,196711305},--Sudo users
     disabled_channels = {},
     moderation = {data = 'data/moderation.json'},
-    about_text = [[Teleseed v2 - Open Source
-An advance Administration bot based on yagop/telegram-bot 
-
-https://github.com/SEEDTEAM/TeleSeed
-
-Our team!
-Alphonse (@Iwals)
-I M /-\ N (@Imandaneshi)
-Siyanew (@Siyanew)
-Rondoozle (@Potus)
-Seyedan (@Seyedan25)
-
-Special thanks to:
-Juan Potato
-Siyanew
-Topkecleon
-Vamptacus
-
-Our channels:
-English: @TeleSeedCH
-Persian: @IranSeed
-]],
+    about_text = [[just boomrange bot for all of the iranian 
+    the sudos are taha & alireza]],
     help_text_realm = [[
 Realm Commands:
 
@@ -314,6 +294,7 @@ Send text to all groups
 This command will send text to [group_id]
 
 » U can use both "/" and "!" 
+Write by taha
 
 » Only mods, owner and admin can add bots in group
 
@@ -420,6 +401,8 @@ Will return group ban list
 
 » U can use both "/" and "!" 
 
+Write by taha
+sudos are @Motion_Graphics_boy & @senator_blackk
 » Only mods, owner and admin can add bots in group
 
 » Only moderators and owner can use kick,ban,unban,newlink,link,setphoto,setname,lock,unlock,set rules,set about and settings commands
@@ -514,38 +497,3 @@ our_id = 0
 now = os.time()
 math.randomseed(now)
 started = false
-
-
-
-
---  -_-_-_-_-_-_-_-_-_-   ||-_-_-_-_-_   ||             ||-_-_-_-_-_
---           ||           ||             ||             ||
---           ||           ||             ||             ||
---           ||           ||             ||             ||
---           ||           ||-_-_-_-_-_   ||             ||-_-_-_-_-_
---           ||           ||             ||             ||
---           ||           ||             ||             ||
---           ||           ||             ||             ||
---           ||           ||-_-_-_-_-_   ||-_-_-_-_-_   ||-_-_-_-_-_
---
---
---                               /\                              /\             /-_-_-_-_-_    ||-_-_-_-_-_   ||-_-_-_-_-_
---  ||\\            //||        //\\        ||      //||        //\\           //              ||             ||         //
---  || \\          // ||       //  \\       ||     // ||       //  \\         //               ||             ||       //
---  ||  \\        //  ||      //    \\      ||    //  ||      //    \\       ||                ||             ||    //
---  ||   \\      //   ||     //______\\     ||   //   ||     //______\\      ||      -_-_-_-   ||-_-_-_-_-_   || //
---  ||    \\    //    ||    //        \\    ||  //    ||    //        \\     ||           ||   ||             ||  \\ 
---  ||     \\  //     ||   //          \\   || //     ||   //          \\     \\          ||   ||             ||     \\
---  ||      \\//      ||  //            \\  ||//      ||  //            \\     \\-_-_-_-_-||   ||-_-_-_-_-_   ||        \\
---
---
---  ||-_-_-_-    ||           ||           ||               //-_-_-_-_-_-
---  ||     ||    ||           ||           ||              //
---  ||_-_-_||    ||           ||           ||             //
---  ||           ||           ||           ||             \\
---  ||           ||           \\           //              \\
---  ||           ||            \\         //               //
---  ||           ||-_-_-_-_     \\-_-_-_-//    -_-_-_-_-_-//
---
---By @ali_ghoghnoos
---@telemanager_ch
