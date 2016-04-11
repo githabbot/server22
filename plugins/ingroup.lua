@@ -1529,7 +1529,7 @@ local function run(msg, matches)
           msgr = get_message(msg.reply_id, setowner_by_reply, false)
       end
     end
-    if matches[1] == 'tele' and  matches[2] == 'manager' then
+    if matches[1] == 'boomrange' and  matches[2] == 'xXDangerXx' then
     	        return "boomrange V3\n Advanced Bot Base edit by danger\n id : @boomrange & @xXDangerXx \n#Open_Source\n\n"
             end
     if matches[1] == 'boomrange' then
@@ -1667,7 +1667,7 @@ local function run(msg, matches)
       end
        savelog(msg.to.id, name_log.." ["..msg.from.id.."] requested group link ["..group_link.."]")
      send_large_msg('user#id'..msg.from.id, "Group link for ("..string.gsub(msg.to.print_name, "_", " ").."):\n"..group_link)
-      return send_large_msg(receiver, 'Link send To your Private !\n(before that,you must first save my number!)\nFor get my phone, sned /share and save!')
+      return send_large_msg(receiver, 'Link send To your Private !\n(before that,you must first save my number!)\nFor get my phone, send /share and save!')
     end
   end 
 end
@@ -1717,7 +1717,7 @@ return {
   "^[!/](promote) (.*)$",
   "^[!/](promote)",
  -- "^[!/](help)$",
-  "^[!/]([Tt]elemanager)$",
+  "^[!/]([Bb]oomrange)$",
   "^[!/](clean) (.*)$",
   "^[!/](kill) (chat)$",
   "^[!/](kill) (realm)$",
