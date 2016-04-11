@@ -1530,11 +1530,11 @@ local function run(msg, matches)
       end
     end
     if matches[1] == 'tele' and  matches[2] == 'manager' then
-    	        return "TeleManagerPlus V3\n Advanced Bot Base On TeleSeed\nchannel id : @telemanager_ch \n#Open_Source\n\n[@telemanagerplus](Https://github.com/telemanagerplus)"
+    	        return "boomrange V3\n Advanced Bot Base edit by danger\n id : @boomrange & @xXDangerXx \n#Open_Source\n\n"
             end
-    if matches[1] == 'telemanager' then
-    	return "TeleManagerPlus V3\n Advanced Bot Base On TeleSeed\nchannel id : @telemanager_ch \n#Open_Source\n\n[@telemanagerplus](Https://github.com/telemanagerplus)"
-    end
+    if matches[1] == 'boomrange' then
+    	return "boomrange V3\n Advanced Bot Base edit by danger\n id : @boomrange & @xXDangerXx \n#Open_Source\n\n"
+            end
     if matches[1] == 'owner' then
       local group_owner = data[tostring(msg.to.id)]['set_owner']
       if not group_owner then 
